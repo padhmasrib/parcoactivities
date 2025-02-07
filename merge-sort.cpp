@@ -98,13 +98,14 @@ int main(int argc, char *argv[])
     {
         inp_arr[i] = rand();
     }
-    cout << "Before sorting: " << endl;
-    printarray(inp_arr);
+    // cout << "Before sorting: " << endl;
+    // printarray(inp_arr);
 
     merge_sort(inp_arr, 0, inp_size - 1);
+    cout << "completed merge sort for array size of: " << inp_size << endl;
 
-    cout << "After sorting: " << endl;
-    printarray(inp_arr);
+    // cout << "After sorting: " << endl;
+    // printarray(inp_arr);
 
     return 0;
 }
