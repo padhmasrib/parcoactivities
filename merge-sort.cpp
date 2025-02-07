@@ -78,6 +78,11 @@ int main(int argc, char *argv[])
 {
     cout << "Hello merge-sort" << endl;
 
+    if (argc < 2) {
+        std::cerr << "require argument for array size" << std::endl;
+        return 1;
+    }
+
     int inp_size = std::atoi(argv[1]);
 
     if (inp_size <= 0) {
