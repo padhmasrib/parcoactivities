@@ -80,6 +80,11 @@ int main(int argc, char *argv[])
 
     int inp_size = std::atoi(argv[1]);
 
+    if (inp_size <= 0) {
+        cerr << "Array size must be a positive integer." << std::endl;
+        return 1;
+    }
+
     // inp_size = 12;
 
     vector<int> inp_arr(inp_size);
@@ -95,4 +100,6 @@ int main(int argc, char *argv[])
 
     cout << "After sorting: " << endl;
     printarray(inp_arr);
+
+    return 0;
 }
