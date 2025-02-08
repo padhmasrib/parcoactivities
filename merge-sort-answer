@@ -1,9 +1,54 @@
-Hello merge-sort
-Before sorting: 
-1804289383 846930886 1681692777 1714636915 1957747793 424238335 719885386 1649760492 596516649 1189641421 1025202362 1350490027 
-After sorting: 
-424238335 596516649 719885386 846930886 1025202362 1189641421 1350490027 1649760492 1681692777 1714636915 1804289383 1957747793 
+
+Completed merge sort for array size of: 10
 
 real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
+
+Completed merge sort for array size of: 100
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+
+Completed merge sort for array size of: 1000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+Completed merge sort for array size of: 10000
+
+real	0m0.008s
+user	0m0.006s
+sys	0m0.001s
+
+Completed merge sort for array size of: 100000
+
+real	0m0.068s
+user	0m0.068s
+sys	0m0.000s
+
+Completed merge sort for array size of: 1000000
+
+real	0m0.730s
+user	0m0.724s
+sys	0m0.003s
+
+Completed merge sort for array size of: 10000000
+
+real	0m7.994s
+user	0m7.923s
+sys	0m0.049s
+
+Completed merge sort for array size of: 100000000
+
+real	1m26.768s
+user	1m26.176s
+sys	0m0.383s
+
+Completed merge sort for array size of: 1000000000
+
+real	15m43.078s
+user	15m34.662s
+sys	0m5.988s
