@@ -76,7 +76,7 @@ void printarray(vector<int>& v)
 
 int main(int argc, char *argv[])
 {
-    cout << "Hello merge-sort" << endl;
+    // cout << "Hello merge-sort" << endl;
 
     if (argc < 2) {
         std::cerr << "require argument for array size" << std::endl;
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
     // printarray(inp_arr);
 
     merge_sort(inp_arr, 0, inp_size - 1);
-    cout << "completed merge sort for array size of: " << inp_size << endl;
+    cout << "\nCompleted merge sort for array size of: " << inp_size << endl;
 
     // cout << "After sorting: " << endl;
     // printarray(inp_arr);
