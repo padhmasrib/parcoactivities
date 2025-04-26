@@ -1,0 +1,13 @@
+[pbaskara@gal-i9 sequential]$ make solar.out
+date
+Sat Apr 26 01:47:15 PM EDT 2025
+./nbody planet 200 5000000 10000 > solar.out # maybe a minutes
+date
+Sat Apr 26 01:47:18 PM EDT 2025
+[pbaskara@gal-i9 sequential]$ make random.out
+date
+Sat Apr 26 01:47:44 PM EDT 2025
+./nbody 1000 1 10000 100 > random.out # maybe 5 minutes
+date
+Sat Apr 26 01:48:54 PM EDT 2025
+[pbaskara@gal-i9 sequential]$

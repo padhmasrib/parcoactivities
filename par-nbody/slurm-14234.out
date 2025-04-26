@@ -1,0 +1,61 @@
+g++ -O3 -fopenmp par-nbody.cpp -o par-nbody
+------------------------------------------------------
+Number of threads used: 5
+
+date
+Sat Apr 26 03:02:58 PM EDT 2025
+./par-nbody planet 200 5000000 10000 > par-solar.out # maybe a minutes
+date
+Sat Apr 26 03:14:05 PM EDT 2025
+
+date
+Sat Apr 26 03:14:05 PM EDT 2025
+./par-nbody 100 1 10000 100 > par-random-100.out # maybe 5 minutes
+date
+Sat Apr 26 03:14:07 PM EDT 2025
+
+date
+Sat Apr 26 03:14:07 PM EDT 2025
+./par-nbody 1000 1 10000 100 > par-random-1000.out # maybe 5 minutes
+date
+Sat Apr 26 03:15:34 PM EDT 2025
+------------------------------------------------------
+Number of threads used: 10
+
+date
+Sat Apr 26 03:15:34 PM EDT 2025
+./par-nbody planet 200 5000000 10000 > par-solar.out # maybe a minutes
+date
+Sat Apr 26 03:40:21 PM EDT 2025
+
+date
+Sat Apr 26 03:40:21 PM EDT 2025
+./par-nbody 100 1 10000 100 > par-random-100.out # maybe 5 minutes
+date
+Sat Apr 26 03:40:24 PM EDT 2025
+
+date
+Sat Apr 26 03:40:24 PM EDT 2025
+./par-nbody 1000 1 10000 100 > par-random-1000.out # maybe 5 minutes
+date
+Sat Apr 26 03:41:52 PM EDT 2025
+------------------------------------------------------
+Number of threads used: 15
+
+date
+Sat Apr 26 03:41:52 PM EDT 2025
+./par-nbody planet 200 5000000 10000 > par-solar.out # maybe a minutes
+date
+Sat Apr 26 04:20:08 PM EDT 2025
+
+date
+Sat Apr 26 04:20:08 PM EDT 2025
+./par-nbody 100 1 10000 100 > par-random-100.out # maybe 5 minutes
+date
+Sat Apr 26 04:20:13 PM EDT 2025
+
+date
+Sat Apr 26 04:20:13 PM EDT 2025
+./par-nbody 1000 1 10000 100 > par-random-1000.out # maybe 5 minutes
+date
+Sat Apr 26 04:21:43 PM EDT 2025

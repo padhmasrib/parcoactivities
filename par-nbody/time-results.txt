@@ -1,0 +1,21 @@
+
+For the sequential n-body:
+---------------------------
+  - the solar system: took 3 seconds
+  - for the 1000 particles: took 1 min 10 seconds
+
+
+For the parallel n-body:
+-------------------------
+
+for the solar system: took 11 min 7 seconds   (# of threads: 5)
+for the solar system: took 24 min 47 seconds  (# of threads: 10)
+for the solar system: took 38 min 16 seconds  (# of threads: 15)
+
+for the 100 particles: took 2 seconds   (# of threads: 5)
+for the 100 particles: took 3 seconds   (# of threads: 10)
+for the 100 particles: took 5 seconds   (# of threads: 15)
+
+for the 1000 particles: took 1 min 27 seconds   (# of threads: 5)
+for the 1000 particles: took 1 min 28 seconds   (# of threads: 10)
+for the 1000 particles: took 1 min 30 seconds   (# of threads: 15)
